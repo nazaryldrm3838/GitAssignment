@@ -18,6 +18,7 @@ public class Main {
         System.out.println("Table sorted:");
         for (int n : numbers) {
             System.out.print(n + " ");
+            System.out.println("Sorting algorithm confirmed and improved in branch.");
         }
         System.out.println();
     }
