@@ -13,5 +13,12 @@ public class Main {
             System.out.print(numbers[i] + " ");
         }
         System.out.println();
+        // i maddesi: Tablo elemanlarını sıralama (Sort)
+        java.util.Arrays.sort(numbers);
+        System.out.println("Table sorted:");
+        for (int n : numbers) {
+            System.out.print(n + " ");
+        }
+        System.out.println();
     }
 }
