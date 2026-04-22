@@ -7,6 +7,7 @@ public class Main {
         System.out.println("Table created.");
 
         // g maddesi: Rastgele değerlerle doldurma
+        System.out.println("Emre`s column");
         System.out.println("Filling table with random values:");
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = (int) (Math.random() * 100);
